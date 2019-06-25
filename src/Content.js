@@ -2,6 +2,7 @@ import React from "react";
 
 export default ({ close }) => (
   <div className="modal">
+    {/* eslint-disable-next-line */}
     <a className="close" onClick={close}>
       &times;
     </a>
